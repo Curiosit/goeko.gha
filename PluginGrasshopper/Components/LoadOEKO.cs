@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace PluginTemplate.PluginGrasshopper
 {
-    public class ExampleComponent : GH_Component
+    public class LoadOEKO : GH_Component
     {
         /// <summary>
         /// Each implementation of GH_Component must provide a public 
@@ -15,10 +15,10 @@ namespace PluginTemplate.PluginGrasshopper
         /// Subcategory the panel. If you use non-existing tab or panel names, 
         /// new tabs/panels will automatically be created.
         /// </summary>
-        public ExampleComponent()
-          : base("ExampleComponent", "Nickname",
-            "Description",
-            "PluginTemplate", "Example")
+        public LoadOEKO()
+          : base("Load oekobau.dat database", "LoadOEKO",
+            "Loads database through API",
+            "goeko", "Loading")
         {
         }
 
