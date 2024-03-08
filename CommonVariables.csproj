@@ -23,26 +23,26 @@
     GUIDs for the Grasshopper and the Rhino Plug-In. Make sure to set these to unique values.
   -->
   <PropertyGroup>
-    <GrasshopperPluginGuid>00000000-0000-0000-0000-000000000000</GrasshopperPluginGuid>
-    <RhinoPluginGuid>00000000-0000-0000-0000-000000000000</RhinoPluginGuid>
+    <GrasshopperPluginGuid>feb6e379-69b8-401a-a985-fc6a820f4231</GrasshopperPluginGuid>
+    <RhinoPluginGuid>8091392f-f620-4df5-bd63-ddd15fcf1df4</RhinoPluginGuid>
   </PropertyGroup>
   <!--
     Common name and namespace for all projects. In case you change the namespace, please also do
     a search and replace operation on all code files.
   -->
   <PropertyGroup>
-    <CommonNamespace>PluginTemplate</CommonNamespace>
-    <CommonName>PluginTemplate</CommonName>
+    <CommonNamespace>goeko</CommonNamespace>
+    <CommonName>goeko</CommonName>
   </PropertyGroup>
   <!--
     Author, Company, Copyright, Product
   -->
   <PropertyGroup>
-    <CommonAuthors>Alex Schiftner</CommonAuthors>
-    <CommonAuthorContact>alex@shapediver.com</CommonAuthorContact>
-    <CommonCompany>ShapeDiver</CommonCompany>
-    <CommonCopyright>ShapeDiver GmbH 2024</CommonCopyright>
-    <CommonProduct>A template plug-in for Grasshopper and Rhino</CommonProduct>
+    <CommonAuthors>Mateusz Płoszaj-Mazurek</CommonAuthors>
+    <CommonAuthorContact>mateuszploszajmazurek@gmail.com</CommonAuthorContact>
+    <CommonCompany>slad.ai</CommonCompany>
+    <CommonCopyright>slad.ai 2024</CommonCopyright>
+    <CommonProduct>A plug-in for LCA in Grasshopper</CommonProduct>
     <YakName>$(CommonName)</YakName>
     <YakAuthors>$(CommonAuthors), $(CommonCompany)</YakAuthors>
     <YakDescription>$(CommonProduct)</YakDescription>
