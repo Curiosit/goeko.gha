@@ -23,33 +23,35 @@
     GUIDs for the Grasshopper and the Rhino Plug-In. Make sure to set these to unique values.
   -->
   <PropertyGroup>
-    <GrasshopperPluginGuid>feb6e379-69b8-401a-a985-fc6a820f4231</GrasshopperPluginGuid>
-    <RhinoPluginGuid>8091392f-f620-4df5-bd63-ddd15fcf1df4</RhinoPluginGuid>
+    <GrasshopperPluginGuid>00000000-0100-0000-0000-000001000010</GrasshopperPluginGuid>
+    <RhinoPluginGuid>00000000-0000-0000-0000-000000000200</RhinoPluginGuid>
   </PropertyGroup>
   <!--
     Common name and namespace for all projects. In case you change the namespace, please also do
     a search and replace operation on all code files.
   -->
   <PropertyGroup>
-    <CommonNamespace>goeko</CommonNamespace>
-    <CommonName>goeko</CommonName>
+    <CommonNamespace>PluginTemplate</CommonNamespace>
+    <CommonName>PluginTemplate</CommonName>
   </PropertyGroup>
   <!--
     Author, Company, Copyright, Product
   -->
-  <PropertyGroup>
-    <CommonAuthors>Mateusz Płoszaj-Mazurek</CommonAuthors>
-    <CommonAuthorContact>mateuszploszajmazurek@gmail.com</CommonAuthorContact>
-    <CommonCompany>slad.ai</CommonCompany>
-    <CommonCopyright>slad.ai 2024</CommonCopyright>
-    <CommonProduct>A plug-in for LCA in Grasshopper</CommonProduct>
-    <YakName>$(CommonName)</YakName>
-    <YakAuthors>$(CommonAuthors), $(CommonCompany)</YakAuthors>
-    <YakDescription>$(CommonProduct)</YakDescription>
-    <YakUrl>https://github.com/shapediver/GrasshopperPluginTemplate</YakUrl>
-    <YakIconUrl>https://github.com/shapediver/GrasshopperPluginTemplate/blob/a7fc6515609bc84d99f9b8dc5f2f062899a7eb11/Artwork/PluginTemplateIcon_32.png</YakIconUrl>
-    <YakKeywords>- Rhino
-- Grasshopper
-- Template</YakKeywords>
-  </PropertyGroup>
+	<PropertyGroup>
+		<CommonAuthors>Mateusz Płoszaj-Mazurek</CommonAuthors>
+		<CommonAuthorContact>mateuszploszajmazurek@gmail.com</CommonAuthorContact>
+		<CommonCompany>slad.ai</CommonCompany>
+		<CommonCopyright>slad.ai 2024</CommonCopyright>
+		<CommonProduct>A plug-in for LCA in Grasshopper</CommonProduct>
+		<YakName>$(CommonName)</YakName>
+		<YakAuthors>$(CommonAuthors), $(CommonCompany)</YakAuthors>
+		<YakDescription>$(CommonProduct)</YakDescription>
+		<YakUrl>https://github.com/shapediver/GrasshopperPluginTemplate</YakUrl>
+		<YakIconUrl>https://github.com/shapediver/GrasshopperPluginTemplate/blob/a7fc6515609bc84d99f9b8dc5f2f062899a7eb11/Artwork/PluginTemplateIcon_32.png</YakIconUrl>
+		<YakKeywords>
+			- Rhino
+			- Grasshopper
+			- Template
+		</YakKeywords>
+	</PropertyGroup>
 </Project>
