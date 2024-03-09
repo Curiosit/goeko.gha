@@ -6,6 +6,9 @@
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
   <!-- 
     packages which are independent of Rhino release 
   -->
@@ -13,9 +16,9 @@
   <!--
     packages specific to Rhino 7
   -->
-  <Import Project="$(MSBuildThisFileDirectory)\PackagesRhino7.props" Condition="$(Configuration.Contains('R7'))"/>
+  <Import Project="$(MSBuildThisFileDirectory)\PackagesRhino7.props" Condition="$(Configuration.Contains('R7'))" />
   <!--
     packages specific to Rhino 8
   -->
-  <Import Project="$(MSBuildThisFileDirectory)\PackagesRhino8.props" Condition="$(Configuration.Contains('R8'))"/>
+  <Import Project="$(MSBuildThisFileDirectory)\PackagesRhino8.props" Condition="$(Configuration.Contains('R8'))" />
 </Project>

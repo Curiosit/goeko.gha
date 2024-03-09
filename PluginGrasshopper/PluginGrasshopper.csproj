@@ -47,6 +47,10 @@
     </AssemblyAttribute>
   </ItemGroup>
   
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" />
+  </ItemGroup>
+  
   <Import Project="../CommonSettingsFinal.csproj" />
   
 </Project>
