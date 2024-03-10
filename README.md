@@ -4,6 +4,8 @@
 
 Goeko is a grasshopper plugin for fetching and calculating LCA data. Goeko uses Ökobaudat - database published by the German state which provides EPD. It is a publicly accessible platform that allows users to search for EPD based on various requirements.
 
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+
 # Sources
 
 Goeko is based on:
