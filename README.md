@@ -1,6 +1,4 @@
 <p align="center"><img src="https://github.com/Curiosit/goeko.gha/assets/17218693/d35a4d18-f83d-4fc8-9d3c-adcbd42cabac" width="100" height="100">
- [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-
 
 </p>
 
