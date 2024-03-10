@@ -11,8 +11,8 @@ Goeko is based on:
 - [okobau_example](https://github.com/ocni-dtu/okobau_example/) published by [Christian Kongsgaard](https://github.com/ocni-dtu)
 
 # Grasshopper and Rhino Plug-in Template
-This repository contains a template for plug-ins to Grasshopper and [Rhino](https://www.rhino3d.com/). 
-The template follows best practices we use at ShapeDiver. 
+This repository contains a template for plug-ins to Grasshopper. 
+The template follows best practices used at ShapeDiver. 
 
 ## How to use this
 
