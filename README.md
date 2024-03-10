@@ -1,4 +1,4 @@
-![goeko](https://github.com/Curiosit/goeko.gha/assets/17218693/d35a4d18-f83d-4fc8-9d3c-adcbd42cabac)
+![goeko](https://github.com/Curiosit/goeko.gha/assets/17218693/d35a4d18-f83d-4fc8-9d3c-adcbd42cabac =250x250)
 
 # Goeko
 
