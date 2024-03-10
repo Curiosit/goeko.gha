@@ -1,3 +1,15 @@
+![goeko](https://github.com/Curiosit/goeko.gha/assets/17218693/d35a4d18-f83d-4fc8-9d3c-adcbd42cabac)
+
+# Goeko
+
+Goeko is a grasshopper plugin for fetching and calculating LCA data. Goeko uses Ökobaudat - database published by the German state which provides EPD. It is a publicly accessible platform that allows users to search for EPD based on various requirements.
+
+# Sources
+
+Goeko is based on:
+- [Grasshopper Plug-in Template](https://github.com/shapediver/GrasshopperPluginTemplate) published by [Alexander Schiftner](https://github.com/snabela)
+- [okobau_example](https://github.com/ocni-dtu/okobau_example/) published by [Christian Kongsgaard](https://github.com/ocni-dtu)
+
 # Grasshopper and Rhino Plug-in Template
 This repository contains a template for plug-ins to Grasshopper and [Rhino](https://www.rhino3d.com/). 
 The template follows best practices we use at ShapeDiver. 
